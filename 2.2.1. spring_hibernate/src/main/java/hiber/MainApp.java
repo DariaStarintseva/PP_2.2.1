@@ -34,10 +34,7 @@ public class MainApp {
 
       for (User user : users) {
 
-         System.out.println("Id = "+user.getId());
-         System.out.println("First Name = "+user.getFirstName());
-         System.out.println("Last Name = "+user.getLastName());
-         System.out.println("Email = "+user.getEmail());
+         System.out.println(user);
       }
 
       System.out.println(userService.getUserByCarModelAndSeries("Car3", 33));
